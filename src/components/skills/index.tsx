@@ -7,7 +7,7 @@ const Skills = () => {
             <h2 className='section__title'>Skills</h2>
             <div className='center mb-16'>
                 <p className='about__skills'>
-                    I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
+                    I have extensive experience working with a variety of technologies as a developer. I&apos;ve developed and maintained multiple projects using these technologies, and I&apos;m always eager to learn more.
                 </p>
             </div>
             <div className='list'>

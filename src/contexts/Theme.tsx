@@ -2,11 +2,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
-interface ThemeContextI {
-  themeName: string,
-  setThemeName: () => void
-}
-
 const ThemeContext = createContext({});
 
 const ThemeProvider = ({

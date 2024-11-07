@@ -41,6 +41,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    id: "project_1",
     name: "Project 1",
     description:
       "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
@@ -49,6 +50,7 @@ const projects = [
     livePreview: "https://github.com",
   },
   {
+    id: "project_2",
     name: "Project 2",
     description:
       "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
@@ -57,6 +59,7 @@ const projects = [
     livePreview: "https://github.com",
   },
   {
+    id: "project_3",
     name: "Project 3",
     description:
       "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",

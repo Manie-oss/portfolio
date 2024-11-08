@@ -1,11 +1,11 @@
 'use client';
 import { useState } from 'react';
-import Brightness2Icon from '@mui/icons-material/Brightness2';
-import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded';
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
-import { projects, skills, contact } from './../../utils/portfolio';
-import { useThemeContext } from './../../contexts/Theme';
+import { FaMoon } from "react-icons/fa";
+import { MdSunny } from "react-icons/md";
+import { IoMenu } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
+import { projects, experience,  skills, contact } from '../../utils/portfolio';
+import { useThemeContext } from '../../contexts/Theme';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -28,6 +28,18 @@ const Navbar = () => {
               className='link link--nav'
             >
               Projects
+            </a>
+          </li>
+        ) : null}
+
+        {experience.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#experience'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Experience
             </a>
           </li>
         ) : null}
@@ -63,7 +75,7 @@ const Navbar = () => {
         className='btn btn--icon nav__theme'
         aria-label='toggle theme'
       >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        {themeName === 'dark' ? <MdSunny className='h-6 w-6 text-amber-500' /> : <FaMoon className='h-4 w-4' />}
       </button>
 
       <button
@@ -72,7 +84,7 @@ const Navbar = () => {
         className='btn btn--icon nav__hamburger'
         aria-label='toggle navigation'
       >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
+        {showNavList ? <IoMdClose className='h-6 w-6' /> : <IoMenu className='h-6 w-6' />}
       </button>
     </nav>
   )

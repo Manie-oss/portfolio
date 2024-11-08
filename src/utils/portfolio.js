@@ -150,7 +150,31 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: "johnsmith@mail.com",
+  email: "to.mansip@gmail.com",
 };
 
-export { header, about, projects, skills, contact };
+const experience = [
+  {
+    id: "company1",
+    company: "BimaXpress, Bangalore",
+    from: "January 2022",
+    to: 'June 2022',
+    designation: "Product Engineer",
+  },
+  {
+    id: "company2",
+    company: "Ticombo, Remote",
+    designation: "Full Stack Developer",
+    from: "January 2023",
+    to: 'Present',
+  },
+  {
+    id: "company3",
+    company: "Ticombo, Remote",
+    designation: "Full Stack Developer",
+    from: "January 2023",
+    to: 'Present',
+  },
+]
+
+export { header, about, projects, skills, contact, experience };

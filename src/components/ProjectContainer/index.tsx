@@ -1,5 +1,5 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LaunchIcon from "@mui/icons-material/Launch";
+import { FaGithub } from "react-icons/fa";
+import { MdLaunch } from "react-icons/md";
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }:any) => (
@@ -23,7 +23,7 @@ const ProjectContainer = ({ project }:any) => (
         aria-label='source code'
         className='link link--icon'
       >
-        <GitHubIcon />
+        <FaGithub className='h-8 w-8 inline-block p-1'/>
       </a>
     )}
 
@@ -33,7 +33,7 @@ const ProjectContainer = ({ project }:any) => (
         aria-label='live preview'
         className='link link--icon'
       >
-        <LaunchIcon />
+        <MdLaunch className='h-8 w-8 inline-block p-1'/>
       </a>
     )}
   </div>

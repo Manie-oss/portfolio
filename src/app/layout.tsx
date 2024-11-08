@@ -1,6 +1,7 @@
 'use client';
 import { ThemeProvider } from '@/contexts/Theme';
 import './../styles/index.css';
+import 'react-vertical-timeline-component/style.min.css';
 
 export default function RootLayout({
   children,

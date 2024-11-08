@@ -1,5 +1,5 @@
 import { contact } from '@/utils/portfolio';
-import './Contact.css'
+import './Contact.css';
 
 const Contact = () => {
   if (!contact.email) return null

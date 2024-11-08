@@ -1,10 +1,10 @@
-import About from "@/components/about";
-import Contact from "@/components/contact";
-import Experience from "@/components/experience";
-import Footer from "@/components/footer";
+import About from "@/components/aboutMe";
+import Contact from "@/components/contacts";
+import Experience from "@/components/experiences";
+import Footer from "@/components/footers";
 import Header from "@/components/header";
 import Projects from "@/components/projects";
-import ScrollToTop from "@/components/scrollToTop";
+import ScrollToTop from "@/components/scrollToTopBtn";
 import Skills from "@/components/skills";
 
 export default function App() {

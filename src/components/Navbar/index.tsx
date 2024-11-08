@@ -4,8 +4,8 @@ import { FaMoon } from "react-icons/fa";
 import { MdSunny } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import { projects, experience,  skills, contact } from './../../utils/portfolio';
-import { useThemeContext } from './../../contexts/Theme';
+import { projects, experience,  skills, contact } from '../../utils/portfolio';
+import { useThemeContext } from '../../contexts/Theme';
 import './Navbar.css';
 
 const Navbar = () => {

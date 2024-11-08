@@ -1,11 +1,11 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Projects from "@/components/Projects";
-import ScrollToTop from "@/components/ScrollToTop";
-import Skills from "@/components/Skills";
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Experience from "@/components/experience";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import Projects from "@/components/projects";
+import ScrollToTop from "@/components/scrollToTop";
+import Skills from "@/components/skills";
 
 export default function App() {
   return (

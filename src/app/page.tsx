@@ -1,7 +1,11 @@
-import About from "@/components/about";
-import Header from "@/components/header";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Projects from "@/components/Projects";
+import ScrollToTop from "@/components/ScrollToTop";
+import Skills from "@/components/Skills";
 
 export default function App() {
   return (
@@ -9,7 +13,11 @@ export default function App() {
       <Header></Header>
       <About></About>
       <Projects></Projects>
+      <Experience></Experience>
       <Skills></Skills>
+      <Contact></Contact>
+      <ScrollToTop></ScrollToTop>
+      <Footer></Footer>
     </div>
   );
 }

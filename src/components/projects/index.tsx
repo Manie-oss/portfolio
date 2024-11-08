@@ -1,4 +1,4 @@
-import { projects } from './../../utils/portfolio'
+import { projects } from '../../utils/portfolio'
 import ProjectContainer from '../ProjectContainer'
 import './Projects.css'
 

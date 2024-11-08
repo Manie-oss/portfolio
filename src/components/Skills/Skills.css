@@ -1,0 +1,143 @@
+.skill {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.about__skills {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.skill-list-item {
+  max-width: 320px; /* Default max-width */
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.skill-list-item:hover {
+  transform: translateY(-7px);
+}
+@media (max-width: 768px) {
+  /* Assuming 'md' breakpoint corresponds to 768px */
+  .skill-list-item {
+    max-width: 203px; /* Adjusted for medium screen sizes */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Assuming 'sm' breakpoint corresponds to 480px */
+  .skill-list-item {
+    margin-bottom: 14px; /* Margin for smaller screens */
+    max-width: 100%; /* Ensure it fills the container on small screens */
+  }
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+}
+
+@media (max-width: 480px) {
+  /* Assuming 'sm' breakpoint corresponds to 480px */
+  .list-container {
+    display: flex;
+    margin-left: 18px; /* Same margin-left for small screens */
+  }
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  /* color: #FFFFFF; */
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  /* Assuming 'md' breakpoint is 768px */
+  .list-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Assuming 'sm' breakpoint is 480px */
+  .list-title {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+  }
+}
+
+.list-paragraph {
+  font-size: 18px;
+  line-height: 30px;
+  /* color: rgba(255, 255, 255, 0.75); */
+}
+
+@media (max-width: 768px) {
+  /* Assuming 'md' breakpoint is 768px */
+  .list-paragraph {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Assuming 'sm' breakpoint is 480px */
+  .list-paragraph {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px) {
+  /* Assuming 'lg' breakpoint is 1200px */
+  .list {
+    margin: 64px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Assuming 'md' breakpoint is 768px */
+  .list {
+    margin: 64px 0;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Assuming 'sm' breakpoint is 480px */
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Assuming 'xs' breakpoint is 375px */
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+}

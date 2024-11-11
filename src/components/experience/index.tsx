@@ -6,6 +6,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
+
 const Experience = () => {
   return (
     <section id="experience" className="section experience">
@@ -26,8 +27,19 @@ const Experience = () => {
                   borderRight: "7px solid  var(--clr-primary)",
                 }}
                 date={`${exp.from} - ${exp.to}`}
-                iconStyle={{ background: "var(--clr-primary)", boxShadow: "0 0 0 4px var(--clr-primary), inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05"}}
-                icon={null}
+                iconStyle={{
+                  background: "var(--clr-primary)",
+                  boxShadow:
+                    "0 0 0 4px var(--clr-primary), inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05",
+                }}
+                icon={
+                  <div className="flex justify-center items-center h-full w-full bg-transparent">
+                    <img
+                      className="h-3/4 w-3/4 object-contain rounded-full"
+                      src={exp.logo}
+                    />
+                  </div>
+                }
               >
                 <h3 className="vertical-timeline-element-title">
                   {exp.designation}
@@ -38,23 +50,6 @@ const Experience = () => {
               </VerticalTimelineElement>
             ))}
         </VerticalTimeline>
-        {/*  <ol className="relative border-s border-l border-solid border-gray-200 dark:border-gray-700">
-          {!!experience.length &&
-            experience.map((exp) => (
-              <li key={exp.id} className="ms-4">
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  {exp.from} - {exp.to}
-                </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                 {exp.designation}
-                </h3>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  {exp.company}
-                </p>
-              </li>
-            ))}
-        </ol> */}
       </div>
     </section>
   );

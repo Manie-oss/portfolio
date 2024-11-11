@@ -160,6 +160,7 @@ const experience = [
     from: "January 2022",
     to: 'June 2022',
     designation: "Product Engineer",
+    logo: '/RNLP.svg'
   },
   {
     id: "company2",
@@ -167,6 +168,7 @@ const experience = [
     designation: "Full Stack Developer",
     from: "January 2023",
     to: 'Present',
+    logo: '/ticombo.png'
   },
   {
     id: "company3",
@@ -174,6 +176,7 @@ const experience = [
     designation: "Full Stack Developer",
     from: "January 2023",
     to: 'Present',
+    logo: '/ticombo.png'
   },
 ]
 

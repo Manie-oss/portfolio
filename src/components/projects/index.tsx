@@ -1,5 +1,5 @@
 import { projects } from '../../utils/portfolio'
-import ProjectContainer from '../projectContainer'
+import ProjectContainer from '../projectContainers'
 import './Projects.css'
 
 const Projects = () => {

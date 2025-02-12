@@ -1,5 +1,5 @@
 import { header } from "../../utils/portfolio"
-import Navbar from '../navbar'
+import Navbar from '../navbarList'
 import './Header.css'
 
 const Header = () => {

@@ -12,7 +12,8 @@ const Experience = () => {
     <section id="experience" className="section experience">
       <h2 className="section__title">EXPERIENCE</h2>
       <div className="flex justify-center items-center">
-        <VerticalTimeline className="before:!bg-[var(--clr-primary)]">
+        {/* This class "before:!h-3/5" is added to remove vertical line after last experience. Remove "before:!h-3/5" when more than 2 experiences are added. */}
+        <VerticalTimeline className="before:!bg-[var(--clr-primary)] before:!h-3/5">
           {!!experience.length &&
             experience.map((exp) => (
               <VerticalTimelineElement

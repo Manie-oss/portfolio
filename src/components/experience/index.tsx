@@ -9,7 +9,7 @@ import {
 
 const Experience = () => {
   return (
-    <section id="experience" className="section experience">
+    <section id="experience" className="section experience mx-3">
       <h2 className="section__title">EXPERIENCE</h2>
       <div className="flex justify-center items-center">
         {/* This class "before:!h-3/5" is added to remove vertical line after last experience. Remove "before:!h-3/5" when more than 2 experiences are added. */}

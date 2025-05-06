@@ -24,14 +24,14 @@ const about = {
   description: [
     {
       id: "para1",
-      desc: "I'm a software developer with 2.3 years of experience, specializing in MEAN (MongoDB, Express.js, Angular, Node.js) and MERN (MongoDB, Express.js, React, Node.js) stack development. I create strong and scalable applications by using MongoDB for data storage, Express.js for server-side logic, and either Angular or React for user interfaces. I'm skilled in Node.js, covering all aspects of development.",
+      desc: "I'm a software developer with 3 years of experience, specializing in MEAN (MongoDB, Express.js, Angular, Node.js) and MERN (MongoDB, Express.js, React, Node.js) stack development. I create strong and scalable applications by using MongoDB for data storage, Express.js for server-side logic, and either Angular or React for user interfaces. I'm skilled in Node.js, covering all aspects of development.",
     },
     {
       id: "para2",
       desc: "By working on projects and always learning, I got good at creating databases, making servers work better, and designing easy-to-use screens. I really like tech stuff, and I'm excited about facing new challenges and discovering cool things in the ever-changing world of making software.",
     },
   ],
-  resume: "https://drive.google.com/file/d/1N6QyczRT9z8Kx4zcRHW3ayyQdWF18Q9A/view?usp=sharing",
+  // resume: "https://drive.google.com/file/d/1N6QyczRT9z8Kx4zcRHW3ayyQdWF18Q9A/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/manie10/",
     github: "https://github.com/manie-oss",
@@ -58,6 +58,15 @@ const projects = [
     stack: ["Clojure","JavaScript", "Tailwind", "DaisyUI", "Uix-Cljs"],
     sourceCode: "https://github.com/manie-oss",
     livePreview: "https://gameeng.xyz/",
+  },
+  {
+    id: "project_3",
+    name: "CodeShare",
+    description:
+      "CodeShare allows you to edit and share code with others",
+    stack: ["ReactJs","TypeScript", "Nodejs", "MongoDb", "Context API", "Tailwind"],
+    sourceCode: "https://github.com/Manie-oss/code-share",
+    livePreview: "txt-bin.vercel.app",
   }
 ];
 
@@ -168,7 +177,7 @@ const experience = [
     id: "company1",
     company: "BimaXpress, Bangalore",
     from: "January 2022",
-    to: 'June 2022',
+    to: 'July 2022',
     designation: "Product Engineer",
     logo: '/RNLP.svg'
   },
@@ -176,7 +185,7 @@ const experience = [
     id: "company2",
     company: "Ticombo, Remote",
     designation: "Full Stack Developer",
-    from: "January 2023",
+    from: "August 2022",
     to: "October 2024",
     logo: '/ticombo.png'
   }

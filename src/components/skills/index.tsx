@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     return(
-        <section id='skills' className='section skill flex justify-center items-center'>
+        <section id='skills' className='section skill flex justify-center items-center mx-3'>
             <h2 className='section__title'>Skills</h2>
             <div className='center mb-16'>
                 <p className='about__skills'>

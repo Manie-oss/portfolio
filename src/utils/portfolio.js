@@ -66,7 +66,7 @@ const projects = [
       "CodeShare allows you to edit and share code with others",
     stack: ["ReactJs","TypeScript", "Nodejs", "MongoDb", "Context API", "Tailwind"],
     sourceCode: "https://github.com/Manie-oss/code-share",
-    livePreview: "txt-bin.vercel.app",
+    livePreview: "https://txt-bin.vercel.app/",
   }
 ];
 
